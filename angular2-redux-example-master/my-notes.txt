@@ -1,0 +1,20 @@
+
+#1) Error: toMap undefined ... 
+=> Solution: add the following in package.json:
+    // added statement to fix error: 
+    // TypeError: toMap.startsWith is not a function at applyMap
+    if (typeof toMap != 'string')
+      continue;
+---------------------------------------------
+
+#2) Error: crypto.js undefined... 
+=> Solution: add the following in package.json:
+map: { 
+    ... 
+    "crypto": "@empty",
+    ... 
+}
+---------------------------------------------
+
+NOTE: navigate to this URL in Firefox: 127.0.0.1:8080
+

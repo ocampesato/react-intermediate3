@@ -1,0 +1,17 @@
+{
+  "100": {
+    "id": "100",
+    "fname": "Dan",
+    "lname": "Smith"
+  },
+  "200": {
+    "id": "200",
+    "fname": "Lee",
+    "lname": "Jones"
+  },
+  "300": {
+    "id": "300",
+    "fname": "Nick",
+    "lname": "Stone"
+  }
+}
