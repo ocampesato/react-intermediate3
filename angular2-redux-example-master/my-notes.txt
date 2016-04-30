@@ -1,5 +1,6 @@
 
-NOTE: navigate to this URL in Firefox: 127.0.0.1:8080
+NOTE: navigate to this URL in Firefox:
+127.0.0.1:8080
 
 #1) Error: toMap undefined ... 
 Solution: insert code at line 251 to jspm-cli/lib/build.js:
@@ -13,7 +14,7 @@ https://github.com/jspm/jspm-cli/blob/master/lib/build.js#L251
 ---------------------------------------------
 
 #2) Error: crypto.js undefined... 
-Solution: add the following in package.json:
+Solution: add the following in config.js:
 map: { 
     ... 
     "crypto": "@empty",
