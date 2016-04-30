@@ -1,20 +1,23 @@
 
+NOTE: navigate to this URL in Firefox: 127.0.0.1:8080
+
 #1) Error: toMap undefined ... 
-=> Solution: add the following in package.json:
+Solution: insert code at line 251 to jspm-cli/lib/build.js:
     // added statement to fix error: 
     // TypeError: toMap.startsWith is not a function at applyMap
-    if (typeof toMap != 'string')
+    if (typeof toMap != 'string')  // <=== line 251 
       continue;
+
+See this post:
+https://github.com/jspm/jspm-cli/blob/master/lib/build.js#L251
 ---------------------------------------------
 
 #2) Error: crypto.js undefined... 
-=> Solution: add the following in package.json:
+Solution: add the following in package.json:
 map: { 
     ... 
     "crypto": "@empty",
     ... 
 }
 ---------------------------------------------
-
-NOTE: navigate to this URL in Firefox: 127.0.0.1:8080
 
