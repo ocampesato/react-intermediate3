@@ -1,8 +1,8 @@
 /**
  * SystemJS hook that caches load and transpilation results of sources that haven't changed in IndexedDB storage.
  * In Chrome dev tools the cache is easily managed under Resources > IndexedDB > jspm
- * There's a global dependency on Dexie.js (ex: //npmcdn.com/dexie@1.3.3/dist/dexie.min.js)
- * Add the following to your index.ghtml <script src="http://npmcdn.com/dexie@1.3.3/dist/dexie.min.js"></script>
+ * There's a global dependency on Dexie.js (ex: //unpkg.com/dexie@1.3.3/dist/dexie.min.js)
+ * Add the following to your index.ghtml <script src="http://unpkg.com/dexie@1.3.3/dist/dexie.min.js"></script>
  * Adapted from https://gist.github.com/ineentho/70303c2ccdb69ad3661d
  */
 ;(function(){
