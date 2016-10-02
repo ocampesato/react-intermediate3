@@ -90,7 +90,7 @@ const LineChart = ReactSVGChart.LineChart;
 And if you just want to smash in a Javascript file you're
 also covered. Drop this in place ...
 
-[https://npmcdn.com/react-svg-chart@4.0.0/dist/react-svg-chart.min.js](https://npmcdn.com/react-svg-chart@4.0.0/dist/react-svg-chart.min.js)
+[https://unpkg.com/react-svg-chart@4.0.0/dist/react-svg-chart.min.js](https://unpkg.com/react-svg-chart@4.0.0/dist/react-svg-chart.min.js)
 
 Then access it on the `ReactSVGChart` global variable.
 
